@@ -2,17 +2,31 @@ package gui.model;
 
 import java.util.Date;
 
+/**
+ * Modele pour une tache
+ * */
+
 public class Tache {
     private String titre;
     private String description;
     private Date dateEcheance;
 
+    /**
+     * Constructeur de la classe
+     * @param titre
+     * @param description
+     * @param dateEcheance
+     */
     public Tache(String titre, String description, Date dateEcheance) {
         this.titre = titre;
         this.description = description;
         this.dateEcheance = dateEcheance;
     }
 
+    /**
+     * Recupere le titre d'une tache
+     * @return le titre
+     */
     public String getTitre() {
         return titre;
     }
