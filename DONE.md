@@ -7,26 +7,27 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 ### Ajout d'une tâche
 
 - [ ] Formulaire de saisie des détails de la tâche.
-- [ ] Bouton "Ajouter".
+- [X] Bouton "Ajouter".
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Le bouton est placé mais le action listener pour changer de panel afin de remplir un formulaire d'ajout de fonctionne
+pas
 
 ### Modification d'une tâche
 
 - [ ] Mécanisme de sélection et de modification de la tâche.
-- [ ] Bouton "Modifier".
+- [X] Bouton "Modifier".
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Le bouton modifier a été ajouté mais il n'a pas de listener
 
 ### Suppression d'une tâche
 
 - [ ] Mécanisme de sélection et de suppression de la tâche.
-- [ ] Bouton "Supprimer".
+- [X] Bouton "Supprimer".
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Le bouton supprimer a été ajouté mais il n'a pas de listener
 
 ### Visualisation des tâches
 
